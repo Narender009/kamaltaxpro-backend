@@ -58,9 +58,9 @@ const sendWelcomeEmail = async (user) => {
       <h2 style="color: #2563eb;">Welcome to KamalTaxPro!</h2>
       <p>Hello ${user.firstName},</p>
       <p>Welcome to KamalTaxPro! We're excited to have you on board.</p>
-      <p>You can now access our courses and services with your account:</p>
+      <p>You can now access our services with your account:</p>
       <ul>
-        <li>Professional tax courses</li>
+        <li>Professional tax services</li>
         <li>Expert consultation services</li>
         <li>Community support</li>
         <li>Regular updates and resources</li>

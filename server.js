@@ -28,7 +28,7 @@ app.use(limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'https://www.kamallegalfintax.com/',
+  origin: process.env.CLIENT_URL || 'https://localhost:5173',
   credentials: true
 }));
 
